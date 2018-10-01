@@ -1,13 +1,11 @@
 package fun.scala.api
 
 import akka.actor.ActorSystem
-import akka.http.javadsl.model.headers.CustomHeader
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.model.HttpHeader
 import akka.http.scaladsl.model.headers.RawHeader
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.{ Sink, Source }
+import akka.stream.scaladsl.{Sink, Source}
 
 import scala.concurrent.ExecutionContext
 
